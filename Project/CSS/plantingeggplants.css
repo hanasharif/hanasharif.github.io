@@ -1,0 +1,91 @@
+body{
+  background-color: LavenderBlush;
+}
+
+#Logo{
+  float: left;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.intro{
+text-align: center;
+margin-bottom: 50px;
+padding-top: 170px;
+}
+
+#plant{
+font-size: 250%;
+font-family: "Lucida Handwriting";
+}
+
+#description {
+  font-size: 200%;
+  font-family: Garamond;
+}
+
+h2{
+  font-family: Garamond;
+}
+
+li{
+  list-style-type: none;
+  font-size: 150%;
+  font-family: Garamond;
+}
+
+.tips{
+  float: left;
+  padding-left: 35px;
+  padding-bottom: 10px;
+  display: inline-block;
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+
+.pest{
+  font-family: Garamond;
+  font-size: 150%;
+}
+
+ #harvest{
+  font-family: Garamond;
+  font-size: 150%;
+}
+
+.process{
+margin-top: 10px;
+margin-bottom: 50px;
+border: 3px solid black;
+padding-left: 35px;
+display: inline-block;
+}
+
+#harvest{
+  padding-left: 35px;
+}
+
+#footernote{
+text-align: center;
+}
+
+#home{
+  background-color: #cc99ff;
+  border-radius: 2px;
+}
+
+.two{
+  width: 60%;
+  height: 20%;
+}
+
+.three{
+  font-family: Garamond;
+  font-size: 150%;
+  padding-left: 35px;
+}

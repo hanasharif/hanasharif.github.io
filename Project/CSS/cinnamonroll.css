@@ -1,0 +1,102 @@
+body{
+  background-color: LavenderBlush;
+}
+
+#Logo{
+  float: left;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.intro{
+text-align: center;
+margin-bottom: 50px;
+padding-top: 170px;
+}
+
+#dish{
+  font-size: 250%;
+  font-family: "Lucida Handwriting";
+}
+
+#description {
+  font-size: 200%;
+  font-family: Garamond;
+}
+
+h2{
+  font-family: Garamond;
+}
+
+li{
+  list-style-type: none;
+  font-size: 150%;
+  font-family: Garamond;
+}
+
+#figimg-container{
+  float: right;
+  padding-bottom: 10px;
+  width: 60%;
+  height: auto;
+}
+.Ingredients{
+  float: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  border: 3px solid black;
+  margin-bottom: 50px;
+}
+
+.three{
+  font-family: Garamond;
+  font-size: 170%;
+  font-weight: bold;
+}
+
+.Preparation{
+  display: inline-block;
+  border: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 150%;
+  font-family: Garamond;
+  line-height: 1.25;
+}
+
+video{
+  padding-left: 35px;
+}
+
+#footernote{
+  text-align: center;
+}
+
+#home{
+  background-color: #cc99ff;
+  border-radius: 2px;
+}
+
+.one{
+  width: 60%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.two{
+  width: 60%;
+  height: 20%;
+}
+
+.four{
+  width: 60%;
+  height: 20%;
+}

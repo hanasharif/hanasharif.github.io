@@ -1,0 +1,169 @@
+
+.grid{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.75fr 1fr 0.5fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "Logo navbar navbar navbar"
+  "Menu1 Menu2 Menu3 Menu4"
+  ". Footer Footer SocialMedia "
+}
+
+@media only screen and (max-width:768px) {
+  .grid{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  font-size: 10px;
+  padding-bottom: 1px;
+  grid-template-areas:
+  "Logo"
+  "navbar"
+  "Menu1"
+  "Menu2"
+  "Menu3"
+  "Menu4"
+  "SocialMedia"
+  "Footer"
+}
+}
+body{
+  background-image: url(../ProjectImages/background.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.navbar {
+  grid-area: navbar;
+  display: grid;
+  max-height: 30px;
+  grid-auto-flow: column;
+  padding: 5px 40px 5px 40px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.Page{
+  display: grid;
+  justify-content: flex-end;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 40px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.Page a:link{
+  color: Black;
+}
+
+.Page a:visited{
+  color: Black;
+}
+
+.Page a:hover{
+  color: #cc0000;
+  transition-timing-function: ease-in-out;
+  transition-delay: 500ms;
+  text-decoration: none;
+}
+
+.Logo{
+  grid-area: Logo;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.SocialMedia {
+  grid-area: SocialMedia;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.Menu1{
+  grid-area: Menu1;
+  border: none;
+  text-align: center;
+  margin-left: 5px;
+  background-color: OliveDrab;
+  text-align: center;
+  background-image: url(../ProjectImages/appetizer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  }
+
+.Menu2{
+  grid-area: Menu2;
+  border: none;
+  text-align: center;
+  background-image:url(../ProjectImages/maindish.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.Menu3{
+  grid-area: Menu3;
+  border: none;
+  text-align: center;
+  background-image:url(../ProjectImages/dessertelement.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  }
+
+.Menu4{
+  grid-area: Menu4;
+  border: none;
+  text-align: center;
+  margin-right: 5px;
+  text-align: center;
+  background-image:url(../ProjectImages/garden.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.Footer{
+  grid-area: Footer;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 0.2;
+}
+
+h4{
+  color:Black;
+  font-size: 150%;
+  text-align: center;
+  background-color: White;
+  opacity: 0.75;
+}
+a:link{
+  color: Black;
+  text-decoration: none;
+  font-size: 120%;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+a:visited{
+  color: Purple;
+  text-decoration: none;
+}
+a:hover{
+  color: #cc0000;
+  transition-timing-function: ease-in-out;
+  transition-delay: 500ms;
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+  text-align: left;
+}
+
+.Food{
+  background-color: White;
+  opacity: 0.75;
+}
